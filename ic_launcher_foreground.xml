@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Outer Edge with beautiful dark cyan/blue fill -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M54,18 L22,31 L22,58 C22,81.1 35.6,102.1 54,108 C72.4,102.1 86,81.1 86,58 L86,31 Z" />
+
+    <!-- Shield Inner Contrast Inset -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,23.5 L27,34.5 L27,58 C27,77.5 38.5,95.2 54,100 C69.5,95.2 81,77.5 81,58 L81,34.5 Z" />
+
+    <!-- Dark Center Overlay to make the Padlock stand out -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,28.5 L32,37.5 L32,58 C32,74 41.5,88.5 54,92.5 C66.5,88.5 76,74 76,58 L76,37.5 Z" />
+
+    <!-- Padlock Shackle (glowing cyan) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,39 C48.5,39 44,43.5 44,49 L44,55 L64,55 L64,49 C64,43.5 59.5,39 54,39 Z M48,49 C48,45.7 50.7,43 54,43 C57.3,43 60,45.7 60,49 L60,55 L48,55 Z" />
+
+    <!-- Padlock Base (solid white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,53 h30 v25 h-30 z" />
+
+    <!-- Padlock Keyhole -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,60 A3,3 0 1 0 54,66 A3,3 0 1 0 54,60 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M52.5,64.5 h3 l-1,6 h-1 z" />
+</vector>
