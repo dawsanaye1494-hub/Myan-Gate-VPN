@@ -1,0 +1,6 @@
+{
+  "name": "Myanmar Free VPN",
+  "description": "မြန်မာနိုင်ငံအတွက် အမြန်နှုန်းမြင့် အခမဲ့ VPN App။ One-Click ဖြင့် အလွယ်တကူ ချိတ်ဆက်အသုံးပြုနိုင်ပါသည်။",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
